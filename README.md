@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 🏥 Healthcare Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive, and modular healthcare dashboard application built with **React** and **Tailwind CSS**. This project includes a collection of reusable and customizable components tailored for healthcare data visualization and appointment management.
 
-## Available Scripts
+## 📦 Component List
 
-In the project directory, you can run:
+### ✅ Header Component
+- Displays the **healthcare logo**, **search bar**, **notification icon**, and **user profile**
+- Clean layout with responsive design
 
-### `npm start`
+### ✅ Sidebar Component
+- Navigation menu linking to all sections of the app
+- Collapsible and mobile-friendly
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✅ Anatomy Section Component
+- Interactive **human anatomy visualization**
+- Highlights health indicators for different body parts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ Health Status Cards Component
+- Progress/status cards showing metrics like:
+  - Heart rate
+  - Blood pressure
+  - Oxygen level
+- Supports visual progress indicators and icons
 
-### `npm test`
+### ✅ Calendar View Component
+- Full-sized calendar using **Tailwind CSS**
+- Integrated appointment scheduling and selection
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✅ Upcoming Schedule Component
+- Displays **upcoming medical appointments**
+- Grouped by day with doctor and time information
 
-### `npm run build`
+### ✅ Activity Feed Component
+- Bar chart showing **weekly activity**
+- Visual insight into number of appointments per day
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✅ Appointment Card Component
+- Reusable card for rendering appointment details
+- Includes doctor name, specialty, time, and profile image
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✅ Progress Card Component
+- Displays progress in percentage with color-coded indicators
+- Customizable status and metric names
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Features of All Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **🔌 Self-contained**: Each component is independently usable.
+- **⚙️ Customizable**: Components accept props for easy configuration and theming.
+- **📱 Responsive**: Designed using **Tailwind CSS** to adapt across devices.
+- **♻️ Reusable**: Components are modular and can be easily reused in other projects.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React** – Front-end library
+- **Tailwind CSS** – Utility-first CSS for rapid UI development
+- **Heroicons / Lucide-react** – Icon libraries used where applicable
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- Node.js and npm installed
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/kaushik7749/Healthcare-Dashboard.git
+cd Healthcare-Dashboard
+npm install
+npm start
