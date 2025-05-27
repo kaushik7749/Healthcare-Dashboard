@@ -2,6 +2,11 @@
 
 A modern, responsive, and modular healthcare dashboard application built with **React** and **Tailwind CSS**. This project includes a collection of reusable and customizable components tailored for healthcare data visualization and appointment management.
 
+## 🖼️ Preview
+![image](https://github.com/user-attachments/assets/1a81d970-763b-4a4a-868c-efc696004eed)
+![image](https://github.com/user-attachments/assets/1053ace1-2372-498c-b247-2a5747e398d1)
+
+
 ## 📦 Component List
 
 ### ✅ Header Component
