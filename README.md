@@ -58,7 +58,7 @@ A modern, responsive, and modular healthcare dashboard application built with **
 
 - **React** – Front-end library
 - **Tailwind CSS** – Utility-first CSS for rapid UI development
-- **Heroicons / Lucide-react** – Icon libraries used where applicable
+- **Lucide-react** – Icon libraries used where applicable
 
 ---
 
